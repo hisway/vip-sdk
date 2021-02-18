@@ -1,6 +1,5 @@
 {
   "name": "hisway/vip-sdk",
-  "type": "library",
   "description": "唯品会联盟SDK",
   "keywords": [
     "vip",

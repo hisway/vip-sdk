@@ -26,7 +26,7 @@ class OspStub {
 	 * @param unknown $method        	
 	 */
 	public function initInvocation($method) {
-		\VipClient\Osp\Log\Logger::info("[OspStub][InitInvocation][Service-Version-Method][".$this->serviceName."-".$this->version."-".$method."]");
+//		\VipClient\Osp\Log\Logger::info("[OspStub][InitInvocation][Service-Version-Method][".$this->serviceName."-".$this->version."-".$method."]");
 		
 		$ctx = InvocationContextFactory::getInstance ();
 		$ctx->reset ();
